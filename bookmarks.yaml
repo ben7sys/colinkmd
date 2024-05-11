@@ -1,15 +1,4 @@
-Entertainment Gruppe:
-- Twitch:
-    abbr:
-    description:
-    href: https://www.twitch.tv
-    icon:
-- Netflix:
-    abbr:
-    description:
-    href: https://www.netflix.com/de
-    icon:
-Produktive Tools:
+EMail und Office:
 - Google Mail:
     abbr: GM
     description: GMAIL
@@ -25,3 +14,34 @@ Produktive Tools:
     description: Webmail Vivaldi
     href: https://webmail.vivaldi.net
     icon: si-vivaldi-#EF3939
+- Outlook Webmail:
+    abbr:
+    description: Outlook Webmail
+    href: https://www.outlook.com
+    icon:
+- Web.de Webmail:
+    abbr:
+    description:
+    href: https://www.web.de
+    icon:
+- Proton Webmail:
+    abbr:
+    description:
+    href: https://proton.me/
+    icon: si-proton-#6D4AFF
+- Tutanota Webmail:
+    abbr:
+    description:
+    href: https://tuta.com/de/
+    icon:
+Entertainment Gruppe:
+- Twitch:
+    abbr:
+    description:
+    href: https://www.twitch.tv
+    icon:
+- Netflix:
+    abbr:
+    description:
+    href: https://www.netflix.com/de
+    icon:
