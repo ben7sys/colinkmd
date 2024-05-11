@@ -10,6 +10,8 @@ Linkliste in Markdown wird konvertiert zu einer yaml die von gethomepage gelesen
 
 ### Ziel
 Vereinfachung der Verwaltung von Linklisten durch die Bereitstellung eines Tools, das Markdown in eine YAML-Struktur umwandelt.
+
+## Für was?
 Dies erleichtert die Integration in webbasierte Plattformen und verbessert die Übersichtlichkeit und Wartbarkeit der Link-Daten.
 
 ### Features
@@ -26,33 +28,19 @@ colinkmd convert -i input.md -o output.yaml
 
 #### Beispiel
 
-##### Eingabe: `links.md`
-
-# Meine Links
-
----
-
-## Gruppe
-- [Titel](https://any.link.to) - Beschreibung - Abkürzung
-- [Titel](https://any.link.to) _link kann auch ohne Beschreibung oder Abkürzung im Markdown enthalten sein_
-- http://any.link.to _auch als einzelner link ohne titel möglich_
-- [Titel Blank Page](http://about:blank) - Blank Page
-
-## Entertainment
-- [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform - **TW**
-- [Netflix](https://www.netflix.com/de) - Streaming Platform - **NF**
-
----
+##### Eingabe: `bookmarks.md`
 
 ##### Ausgabe: `bookmarks.yaml`
 
 ```yaml
 - Gruppe:
-    - Titel:
-        - abbr: AK
+    - Titel Any Link:
+        - href: http://about:blank
+          description: Beschreibung des Links
+          abbr: Abkürzung
           icon: https://www.google.com/favicon.ico
-          href: http://about:blank
-          description: Blank
+          
+          
 
     - Twitch:
         - abbr: TW
