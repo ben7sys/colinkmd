@@ -2,7 +2,8 @@
 convert linklists markdown files into yaml
 
 ## Projekt: colinkmd
-Das Projekt "colinkmd" konvertiert eine in Markdown gepflegte Linkliste in eine strukturierte YAML Datei. 
+Das Projekt "colinkmd" konvertiert eine in Markdown gepflegte Linkliste in eine strukturierte YAML Datei.
+ 
 Die YAML-Dateien können dann von "gethomepage" verwendet werden, um die Link-Sammlungen zu generieren oder zu aktualisieren. 
 
 # Usage:
