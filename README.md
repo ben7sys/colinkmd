@@ -33,10 +33,10 @@ colinkmd convert -i input.md -o output.yaml
 ---
 
 ## Gruppe
-- [Titel](https://any.link.to)
-
-## Blankpages
-- [Titel Blank Page](about:blank) - Blank Page
+- [Titel](https://any.link.to) - Beschreibung - Abkürzung
+- [Titel](https://any.link.to) _link kann auch ohne Beschreibung oder Abkürzung im Markdown enthalten sein_
+- http://any.link.to _auch als einzelner link ohne titel möglich_
+- [Titel Blank Page](http://about:blank) - Blank Page
 
 ## Entertainment
 - [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform - **TW**
