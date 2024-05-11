@@ -1,30 +1,27 @@
-- Gruppe:
-    Titel Any Link:
-      abbr: AL
-      description: Beschreibung des Links
-      href: https://any.link.to
-      icon: icon.png
-- Gruppe:
-    Test Titel:
-      abbr: null
-      description: null
-      href: https://test.link.to
-      icon: null
-- Gruppe:
-    Titel Blank Page:
-      abbr: null
-      description: null
-      href: http://about:blank
-      icon: null
-- Gruppe:
-    Twitch:
-      abbr: null
-      description: null
-      href: https://www.twitch.tv
-      icon: null
-- Gruppe:
-    Netflix:
-      abbr: null
-      description: null
-      href: https://www.netflix.com/de
-      icon: null
+Entertainment Gruppe:
+- Twitch:
+    abbr:
+    description:
+    href: https://www.twitch.tv
+    icon:
+- Netflix:
+    abbr:
+    description:
+    href: https://www.netflix.com/de
+    icon:
+Produktive Tools:
+- Google Mail:
+    abbr: GM
+    description: GMAIL
+    href: https://mail.google.com
+    icon: si-google-#4285F4
+- 1blu Webmail:
+    abbr: 1B
+    description: Webmail 1blu Webhoster
+    href: https://webmail.1blu.de/
+    icon:
+- Vivaldi Webmail:
+    abbr:
+    description: Webmail Vivaldi
+    href: https://webmail.vivaldi.net
+    icon: si-vivaldi-#EF3939

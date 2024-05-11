@@ -1,23 +1,15 @@
 # Beispielbookmarks
 
-## Gruppe von Links
+## Produktive Tools
 
-[Titel Any Link](https://any.link.to) desc:Beschreibung des Links ++ abbr:AL ++ icon:icon.png
-
-[Test Titel](https://test.link.to) `link kann auch ohne Beschreibung oder Abkürzung im Markdown enthalten sein`
-
-[Titel Blank Page](http://about:blank) Blank Page
-
+[Google Mail](https://mail.google.com) desc:GMAIL ++ abbr:GM ++ icon:si-google-#4285F4
+[1blu Webmail](https://webmail.1blu.de/) desc:Webmail 1blu Webhoster ++ abbr:1B
+[Vivaldi Webmail](https://webmail.vivaldi.net) desc:Webmail Vivaldi ++ icon:si-vivaldi-#EF3939
 http://any.link.to _auch als einzelner link ohne titel möglich_
-
 example.com
-
 https://example.com
-
 www.example.com
-
 
 ## Entertainment Gruppe
 [Twitch](https://www.twitch.tv) Twitch Live Streaming Platform ++ icon:
-
 [Netflix](https://www.netflix.com/de) Streaming Platform

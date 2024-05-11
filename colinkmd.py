@@ -3,25 +3,23 @@ import yaml
 from markdown2 import markdown
 from pathlib import Path
 
-def parse_categories(lines):
-    categories = []
+def parse_categories_and_links(lines):
+    data = {}
+    current_category = None
+
     for line in lines:
-        # Trim whitespace for accurate matching
         trimmed_line = line.strip()
         if trimmed_line.startswith('##'):
-            # Remove '## ' to just get the category name
-            category_name = trimmed_line[3:].strip()
-            categories.append(category_name)
-    return categories
+            # Neuen Kategoriennamen als aktuellen Schlüssel festlegen
+            current_category = trimmed_line[3:].strip()
+            data[current_category] = []
+        elif trimmed_line.startswith('['):
+            # Linkdetails parsen und der aktuellen Kategorie hinzufügen
+            link_details = parse_link_details(trimmed_line)
+            if link_details and current_category:
+                data[current_category].append(link_details)
 
-def parse_basic_links(lines):
-    """Parse basic Markdown links."""
-    links = []
-    for line in lines:
-        trimmed_line = line.strip()
-        if trimmed_line.startswith('['):
-            links.append(trimmed_line)
-    return links
+    return data
 
 def parse_link_details(link_line):
     # Regex to extract title and URL
@@ -49,17 +47,18 @@ def main():
     with open(file_path, 'r') as file:
         lines = file.readlines()
     
-    categories = parse_categories(lines)
-    links = parse_basic_links(lines)
-    link_details = [parse_link_details(link) for link in links if parse_link_details(link) is not None]
+    data = parse_categories_and_links(lines)
 
-    # Prepare a structured dictionary for YAML output
-    yaml_data = [{'Gruppe': details} for details in link_details if details is not None]
+    # Eigene Funktion zur Behandlung von None-Werten, die im YAML als leere Strings erscheinen
+    def none_representer(dumper, data):
+        return dumper.represent_scalar('tag:yaml.org,2002:null', '')
+    
+    # Registriere den eigenen Repräsentierer für den Typ None
+    yaml.add_representer(type(None), none_representer)
 
     # Save data to a YAML file
     with open('bookmarks.yaml', 'w') as yaml_file:
-        yaml.dump(yaml_data, yaml_file, allow_unicode=True, default_flow_style=False)
+        yaml.dump(data, yaml_file, allow_unicode=True, default_flow_style=False)
 
 if __name__ == '__main__':
     main()
-
