@@ -1,47 +1,74 @@
-EMail und Office:
-- Google Mail:
-    abbr: GM
-    description: GMAIL
-    href: https://mail.google.com
-    icon: si-google-#4285F4
-- 1blu Webmail:
-    abbr: 1B
-    description: Webmail 1blu Webhoster
-    href: https://webmail.1blu.de/
-    icon:
-- Vivaldi Webmail:
-    abbr:
-    description: Webmail Vivaldi
-    href: https://webmail.vivaldi.net
-    icon: si-vivaldi-#EF3939
-- Outlook Webmail:
-    abbr:
-    description: Outlook Webmail
-    href: https://www.outlook.com
-    icon:
-- Web.de Webmail:
-    abbr:
-    description:
-    href: https://www.web.de
-    icon:
-- Proton Webmail:
-    abbr:
-    description:
-    href: https://proton.me/
-    icon: si-proton-#6D4AFF
-- Tutanota Webmail:
-    abbr:
-    description:
-    href: https://tuta.com/de/
-    icon:
-Entertainment Gruppe:
-- Twitch:
-    abbr:
-    description:
-    href: https://www.twitch.tv
-    icon:
-- Netflix:
-    abbr:
-    description:
-    href: https://www.netflix.com/de
-    icon:
+- EMail und Office:
+  - Google Mail:
+    - abbr: GM
+      description: GMAIL
+      href: https://mail.google.com
+      icon: si-google-#4285F4
+  - 1blu Webmail:
+    - abbr: 1B
+      description: Webmail 1blu Webhoster
+      href: https://webmail.1blu.de/
+      icon:
+  - Vivaldi Webmail:
+    - abbr:
+      description: Webmail Vivaldi
+      href: https://webmail.vivaldi.net
+      icon: si-vivaldi-#EF3939
+  - Outlook Webmail:
+    - abbr:
+      description: Outlook Webmail
+      href: https://www.outlook.com
+      icon:
+  - Web.de Webmail:
+    - abbr:
+      description:
+      href: https://www.web.de
+      icon:
+  - Proton Webmail:
+    - abbr:
+      description:
+      href: https://proton.me/
+      icon: si-proton-#6D4AFF
+  - Tutanota Webmail:
+    - abbr:
+      description:
+      href: https://tuta.com/de/
+      icon:
+- Entertainment Gruppe:
+  - YouTube:
+    - abbr:
+      description:
+      href: https://youtube.com/
+      icon: si-youtube-#FF0000
+  - Twitch:
+    - abbr:
+      description:
+      href: https://www.twitch.tv
+      icon: si-twitch-#9146FF
+  - Reddit:
+    - abbr:
+      description:
+      href: https://reddit.com/
+      icon: si-reddit-#FF4500
+  - Netflix:
+    - abbr:
+      description:
+      href: https://www.netflix.com/de
+      icon:
+- Developer:
+  - Github:
+    - abbr: GH
+      description: GitHub
+      href: https://github.com
+      icon: si-github-#FFFFFF
+- Awesome Icons and Stock:
+  - SimpleIcons.org:
+    - abbr:
+      description: Awesome Simple Icons
+      href: https://simpleicons.org/
+      icon: si-simpleicons-#111111
+  - IconDuck.com:
+    - abbr:
+      description: Free Open Source Icons
+      href: https://iconduck.com/
+      icon:

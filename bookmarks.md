@@ -10,5 +10,14 @@
 [Tutanota Webmail](https://tuta.com/de/)
 
 ## Entertainment Gruppe
-[Twitch](https://www.twitch.tv) Twitch Live Streaming Platform ++ icon:
+[YouTube](https://youtube.com/) icon: si-youtube-#FF0000
+[Twitch](https://www.twitch.tv) Twitch Live Streaming Platform ++ icon:si-twitch-#9146FF
+[Reddit](https://reddit.com/) icon:si-reddit-#FF4500
 [Netflix](https://www.netflix.com/de) Streaming Platform
+
+## Developer
+[Github](https://github.com) desc: GitHub ++ abbr:GH ++ icon:si-github-#FFFFFF
+
+## Awesome Icons and Stock
+[SimpleIcons.org](https://simpleicons.org/) desc:Awesome Simple Icons ++ icon:si-simpleicons-#111111
+[IconDuck.com](https://iconduck.com/) desc:Free Open Source Icons
