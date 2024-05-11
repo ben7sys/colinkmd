@@ -1,25 +1,6 @@
-# Bookmarks
-
-
-**Beschreibung**
-Die bookmarks.md enthält Links unterteilt in Kategorien.
-
-Die Kategorien beginnen mit `##`
-
-Jede Zeile ist ein Bookmarklink und kann zusätzliche Informationen enthalten
-
-Das empfohlene Shema einen Link in die Liste einzutragen ist:
-
-`[Linktitel](url) Beschreibung ++ Abkürzung`
-
-Es ist aber auch möglich nur die URL als einzelne Zeile zu erfassen, dabei ist das Format egal.
-
-Text in ``wird als Kommentar verwendet.
-
-
 # Beispielbookmarks
 
-## Gruppe
+## Gruppe von Links
 
 [Titel Any Link](https://any.link.to) desc:Beschreibung des Links ++ abbr:AL ++ icon:icon.png
 
@@ -36,7 +17,7 @@ https://example.com
 www.example.com
 
 
-## Entertainment
+## Entertainment Gruppe
 [Twitch](https://www.twitch.tv) Twitch Live Streaming Platform ++ icon:
 
 [Netflix](https://www.netflix.com/de) Streaming Platform

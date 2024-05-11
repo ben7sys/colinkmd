@@ -1,0 +1,30 @@
+- Gruppe:
+    Titel Any Link:
+      abbr: AL
+      description: Beschreibung des Links
+      href: https://any.link.to
+      icon: icon.png
+- Gruppe:
+    Test Titel:
+      abbr: null
+      description: null
+      href: https://test.link.to
+      icon: null
+- Gruppe:
+    Titel Blank Page:
+      abbr: null
+      description: null
+      href: http://about:blank
+      icon: null
+- Gruppe:
+    Twitch:
+      abbr: null
+      description: null
+      href: https://www.twitch.tv
+      icon: null
+- Gruppe:
+    Netflix:
+      abbr: null
+      description: null
+      href: https://www.netflix.com/de
+      icon: null
