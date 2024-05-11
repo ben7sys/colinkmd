@@ -32,12 +32,19 @@ colinkmd convert -i input.md -o output.yaml
 # Meine Links
 
 ## Gruppe
-- [AK](http://about:blank) - Blank Page
+- [Titel](https://any.link.to)
 
-## Twitch
-- [TW](https://www.twitch.tv) - Besuche Twitch
+## Blankpages
+- [Titel Blank Page](about:blank) - Blank Page
+
+## Entertainment
+- **TW** - [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform
+- **NF** - [Netflix](https://www.netflix.com/de) - Streaming Platform
 ```
 
+## Entertainment
+- **TW** - [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform
+- **NF** - [Netflix](https://www.netflix.com/de) - Streaming Platform
 
 ##### Ausgabe: `bookmarks.yaml`
 
