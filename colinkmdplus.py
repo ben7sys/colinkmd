@@ -64,7 +64,15 @@ def main():
 
     # Save data to a YAML file
     with open('bookmarks.yaml', 'w') as yaml_file:
-        yaml.dump(data, yaml_file, allow_unicode=True, default_flow_style=False)
+        # Dump data to a string first
+        dumped_data = yaml.dump(data, allow_unicode=True, default_flow_style=False)
+        
+        # Add a newline between top-level items
+        modified_data = '\n'.join('\n' + line if line.startswith('-') else line for line in dumped_data.splitlines())
+        
+        # Write the modified data to file
+        yaml_file.write(modified_data)
 
 if __name__ == '__main__':
     main()
+
