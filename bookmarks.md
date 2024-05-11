@@ -38,4 +38,5 @@ www.example.com
 
 ## Entertainment
 [Twitch](https://www.twitch.tv) Twitch Live Streaming Platform ++ icon:
+
 [Netflix](https://www.netflix.com/de) Streaming Platform
