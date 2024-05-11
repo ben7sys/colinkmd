@@ -38,13 +38,13 @@ colinkmd convert -i input.md -o output.yaml
 - [Titel Blank Page](about:blank) - Blank Page
 
 ## Entertainment
-- **TW** - [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform
-- **NF** - [Netflix](https://www.netflix.com/de) - Streaming Platform
+- [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform **TW**
+- [Netflix](https://www.netflix.com/de) - Streaming Platform **NF**
 ```
 
 ## Entertainment
-- **TW** - [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform
-- **NF** - [Netflix](https://www.netflix.com/de) - Streaming Platform
+- [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform **TW**
+- [Netflix](https://www.netflix.com/de) - Streaming Platform **NF**
 
 ##### Ausgabe: `bookmarks.yaml`
 
