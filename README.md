@@ -28,8 +28,9 @@ colinkmd convert -i input.md -o output.yaml
 
 ##### Eingabe: `links.md`
 
-```markdown
 # Meine Links
+
+---
 
 ## Gruppe
 - [Titel](https://any.link.to)
@@ -38,13 +39,10 @@ colinkmd convert -i input.md -o output.yaml
 - [Titel Blank Page](about:blank) - Blank Page
 
 ## Entertainment
-- [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform **TW**
-- [Netflix](https://www.netflix.com/de) - Streaming Platform **NF**
-```
+- [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform - **TW**
+- [Netflix](https://www.netflix.com/de) - Streaming Platform - **NF**
 
-## Entertainment
-- [Twitch](https://www.twitch.tv) - Twitch Live Streaming Platform **TW**
-- [Netflix](https://www.netflix.com/de) - Streaming Platform **NF**
+---
 
 ##### Ausgabe: `bookmarks.yaml`
 
